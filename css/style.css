@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #eedfdf
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+}
+
+.hero_text {
+    font-size: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    color: white;
+    transition: .5s ease-in;
+    border-radius: 10px;
+}
+
+.login {
+    background-color: rgb(97, 18, 224);
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+.login:hover{
+    transition: .5s ease-in;
+    opacity: 100%;
+    background-color: rgb(99, 34, 204) !important;
+    border-radius: 10px !important;
+}
+
+a:hover, 
+.active {
+    transition: .4s ease-in;
+    background-color: rgba(53, 144, 160, 0.822);
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 20PX;
+    padding-bottom: 20px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    width: 100%;
+}
+
+.icons {
+    padding-top: 5px;
+}
+
+i {
+    padding: 9px;
+    font-size: 24px;
+}
+
+.signup-form , 
+.login-form{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 120px;
+}
+
+button {
+    background-color: rgb(98, 0, 255);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s ease-in;
+    width: 50%;
+}
+
+button:hover {
+    transition: .5s ease-in;
+    opacity: 0.9;
+}
+
+input[type=text], 
+input[type=password]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    letter-spacing: 0.7px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+input[type=text]:focus,
+input[type=password]:focus {
+    outline: none;
+}
+
+
+.form {
+    text-align: center;
+}
